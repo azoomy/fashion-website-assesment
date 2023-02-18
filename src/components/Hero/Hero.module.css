@@ -1,0 +1,64 @@
+.mainHero {
+    height: 30rem;
+    width: 100vw;
+    display: flex;
+    padding: 2rem 10rem;
+    box-sizing: border-box;
+}
+
+.textContent {
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: flex-start;
+    width: 50%;
+    /* background-color: blue; */
+    height: 100%;
+}
+
+.textMain {
+    width: 50%;
+    /* background-color: red; */
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.textSecondary{
+    padding-top: 1rem;
+    font-size: 12px;
+    width: 50%;
+    /* background-color: green; */
+}
+
+.shopButton {
+    margin-top: 1rem;
+    background-color:#F86338;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.shopButton:hover{
+    cursor: pointer;
+    background-color:#da4116;
+
+}
+
+
+
+.sliderPhotos {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.photos {
+    background-color: gray;
+    height: 100%;
+    width: 30%;
+    margin: 0px 5px;
+
+}

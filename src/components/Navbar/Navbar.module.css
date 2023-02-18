@@ -1,0 +1,156 @@
+.mainContainer {
+    width: 100vw;
+    height: 10rem;
+    padding-top: 10px;
+}
+
+.firstContainer {
+    width: 100vw;
+    height: 50%;
+    padding: 0px 10rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.secondContainer {
+    width: 100vw;
+    height: 50%;
+    display: flex;
+    padding: 0px 10rem;
+    box-sizing: border-box;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.firstContainerCall {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.firstContainerLogo{
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.firstContainerSocials{
+    display: flex;
+    width: 15%;
+    justify-content: space-evenly;
+}
+
+.socialIcon {
+    height: 2rem;
+    width: 2rem;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.5px solid black;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.socialIcon:hover {
+    cursor: pointer;
+}
+
+.navItems{
+    display: flex;
+    width: 20%;
+    justify-content: space-between;
+}
+
+.navItem{
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.navItem:hover{
+    cursor: pointer;
+}
+
+.actionButtons{
+    display: flex;
+    width: 10%;
+    justify-content: space-between;
+}
+
+.actionButtons:hover{
+cursor: pointer;
+}
+
+@media screen and (max-width: 480px) {
+
+    .firstContainer {
+        width: 100vw;
+        height: 50%;
+        padding: 0px 5px;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .secondContainer {
+        width: 100vw;
+        height: 50%;
+        display: flex;
+        padding: 0px 5px;
+        box-sizing: border-box;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .firstContainerCall{
+        font-size: 10px;
+        font-weight: 500;
+    }
+    
+    .firstContainerLogo{
+        font-size: 15px;
+        font-weight: 800;
+    }
+    
+    .firstContainerSocials{
+        display: flex;
+        justify-content: space-evenly;
+        width: 20%;
+    }
+    
+    .socialIcon {
+        height: 1.2rem;
+        width: 1.2rem;
+        border-radius: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 0.5px solid black;
+        font-size: 7px;
+        font-weight: 500;
+        margin: 0px 1px
+    }
+    .socialIcon:first-child {
+      margin-right: 1px;
+    }
+    .socialIcon:last-child {
+        margin-left: 1px;
+    }
+
+    .navItems{
+        width: 50%;
+    }
+
+.navItem{
+    font-size: 12px;
+    font-weight: 500;
+}
+
+
+.actionButtons{
+    display: flex;
+    width: 20%;
+    justify-content: space-between;
+}
+
+}

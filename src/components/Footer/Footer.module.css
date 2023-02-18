@@ -1,0 +1,56 @@
+.main {
+    width: 100vw;
+    height: 15rem;
+    background-color: #F86338;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+.logo {
+    /* background-color: blue; */
+    height: 100%;
+    width: 25%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.logoName {
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.details{
+    font-size: 14px;
+}
+
+.socials {
+    height: 70%;
+    width: 25%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.title{
+    font-weight: 700;
+}
+
+.contact {
+    height: 70%;
+    width: 25%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
